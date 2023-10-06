@@ -54,6 +54,13 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
                 </a>
+                
+              </li>
+              <li class="nav-item">
+                <a href="/cast" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>cast</p>
+                </a>
               </li>
             </ul>
           </li>
@@ -61,6 +68,7 @@
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
+      
     </div>
     <!-- /.sidebar -->
   </aside>

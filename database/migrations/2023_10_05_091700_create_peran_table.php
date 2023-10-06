@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->foreignId('film_id')->constrained('id')->on('film');
-            $table->foreignId('cast_id')->constrained('id')->on('cast');
+            $table->foreignId('casts_id')->constrained('id')->on('casts');
             $table->timestamps();
         });
     }
